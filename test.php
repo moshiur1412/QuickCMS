@@ -1,4 +1,5 @@
 <?php
+/* We used PHPMailer Libery for Successfully Sending Mail */
 require("PHPMailer_5.2.0/class.phpmailer.php");
 require("PHPMailer_5.2.0/class.smtp.php");
 $mail = new PHPMailer();
