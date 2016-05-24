@@ -1,2 +1,2 @@
 # PHPMailFunction
-PHP Mail Function Work Properly.
+PHP Mail Function with testing ...
