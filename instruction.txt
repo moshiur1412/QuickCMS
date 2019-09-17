@@ -1,0 +1,14 @@
+1. First create a databases and config .env files
+2. composer install
+3. php artisan migrate
+4. php artisan serve
+5. gulp
+
+
+System live: 
+1. http://mdbcorporationbd.000webhostapp.com/
+2. http://mdbcms.net23.net/
+
+http://mdbcms.net23.net/login
+super admin = admin@example.com
+All Password = 123456
