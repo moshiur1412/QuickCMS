@@ -1,4 +1,4 @@
-# EC_Claim (EC Claim)
+# OWN CMS (OWN CMS)
 
 -
 EC_Cleam is the subsystem which is developed for your own online profile which can share easily by your own format. In the evaluation of the system that has been trying to deliver the best application within the limitation of time but there was still possible to implement new features and functionality for the best attractive product. Therefore, the project live demo, repository, and screencast video are following below:
