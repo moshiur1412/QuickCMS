@@ -25,9 +25,9 @@ class StoreOrderproductsRequest extends FormRequest
     {
         return [
             'customer_name' => 'required',
-        'phone_number' => 'required',
-        'address'  => 'required',
-        'quantity' => 'required'
+            'phone_number' => 'required|digits_between:11,12',
+            'address'  => 'required',
+            'quantity' => 'required|integer'
         ];
     }
 }

@@ -23,21 +23,51 @@
 
 			<div class="form-group row">
 				{{ Form::label('name', 'Your Name :', ['class' => 'col-2 col-form-label']) }} 
-				<div class="col-10"> {{ Form::text('customer_name', null, ['class' => 'form-control']) }} </div>
+				<div class="col-10 {{ $errors->has('customer_name') ? ' has-error' : '' }} "> {{ Form::text('customer_name', null, ['class' => 'form-control']) }} </div>
+
+				@if ($errors->has('customer_name'))
+				<span class="help-block">
+				    <strong>{{ $errors->first('customer_name') }}</strong>
+				</span>
+				@endif
+
+
 			</div>
 			<div class='form-group row'>
-				{{ Form::label('name', 'Your Phone Number :', ['class' => 'col-2 col-form-label']) }} 
-				<div class="col-10"> {{ Form::text('phone_number', null, ['class' => 'form-control']) }} </div>
+				{{ Form::label('phone_number', 'Your Phone Number :', ['class' => 'col-2 col-form-label']) }} 
+				<div class="col-10 {{ $errors->has('phone_number') ? ' has-error' : '' }}"> {{ Form::text('phone_number', null, ['class' => 'form-control']) }} </div>
+
+				@if ($errors->has('phone_number'))
+				<span class="help-block">
+				    <strong>{{ $errors->first('phone_number') }}</strong>
+				</span>
+				@endif
+
+				
 			</div>
 
 			<div class="form-group row">
-				{{ Form::label('name', 'Your Address :', ['class' => 'col-2 col-form-label']) }} 
-				<div class="col-10"> {{ Form::text('address', null, ['class' => 'form-control']) }} </div>
+				{{ Form::label('address', 'Your Address :', ['class' => 'col-2 col-form-label']) }} 
+				<div class="col-10 {{ $errors->has('address') ? ' has-error' : '' }} "> {{ Form::text('address', null, ['class' => 'form-control']) }} </div>
+
+				@if ($errors->has('address'))
+				<span class="help-block">
+				    <strong>{{ $errors->first('address') }}</strong>
+				</span>
+				@endif
+
 			</div>
 
 			<div class="form-group row">
 				{{ Form::label('name', 'Product Quantity :', ['class' => 'col-2 col-form-label']) }} 
-				<div class="col-10"> {{ Form::text('quantity', null, ['class' => 'form-control']) }} </div>
+				<div class="col-10 {{ $errors->has('quantity') ? ' has-error' : '' }} "> {{ Form::text('quantity', null, ['class' => 'form-control']) }} </div>
+
+				@if ($errors->has('quantity'))
+				<span class="help-block">
+				    <strong>{{ $errors->first('quantity') }}</strong>
+				</span>
+				@endif
+
 			</div>
 
 			<div class="pull-center row">
