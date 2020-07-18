@@ -1,24 +1,8 @@
 # OWN CMS (Quick CMS)
 
--
-Almost every IT firm have some offer a small personal website for blog commending
-or online product selling or any other service related small websites but most of the
-time, every IT Engineers are so much busy for their big project working with huge
-budget. On the other hand, a personal blog sites or product selling small websites and
-other service related websites are depending on very small budget within short time
-product delivery deadline. In this scenario, the company wants to develop a common
-platform for the current problem solutions. They want to make some common features
-such as user’s management, pages with posts creation and content managements
-within the based platform. The propose system is QUICKCMS which is enable that types
-of individual small websites with low costs and very quick product delivery. The
-company wants to make sure their own product for their branding and marketing which
-is achieved huge customers with big revenue into the small CMS development.
+Almost every IT firm have some offer a small personal website for blog commending or online product selling or any other service related small websites but most of the time, every IT Engineers are so much busy for their big project working with huge budget. On the other hand, a personal blog sites or product selling small websites and other service related websites are depending on very small budget within short time product delivery deadline. In this scenario, the company wants to develop a common platform for the current problem solutions. They want to make some common features such as user’s management, pages with posts creation and content managements within the based platform. The propose system is QUICKCMS which is enable that types of individual small websites with low costs and very quick product delivery. The company wants to make sure their own product for their branding and marketing which is achieved huge customers with big revenue into the small CMS development.
 
 **Version**: 1.0 Release of the Quick CMS (OWN CMS).
-
-<!-- - Application Live: https://live-quick-cms.herokuapp.com/ -->
-<!-- - Screencast video for live demo presentation without audio: -->
-  <!-- <a href="https://www.useloom.com/share/5e7a93bd7aa64fc7b55a33b70b19a0e8"><img src="screencast_video.jpg" border="10" alt="SEV_System_Live_Demo" width="560" height="315" /></a> -->
 
 ---
 
@@ -41,7 +25,10 @@ is achieved huge customers with big revenue into the small CMS development.
 
 ## Overview
 
-This is identified that the project developed as calling name QuickCMS. The system handles to share your own profile by your own custom format which can share your CV. Therefore, the system is completely run error-free in that checking period.
+Bangladesh is a developing country and IT is the most important part of this sector. Now IT businesses are increasing day by day with effective ways and active usability. At the same time, a user can manage his daily tasks, activates and business throughout the websites. A person can easily manage his contents with huge sharing within the digital content management, they can have used IT to create a new way for their products selling online and any kind of small organization service related content management within the short time and cost effectively. 
+
+QuickCMS works on the content management system that is followed for the individual personal based web service with some user management which is manage the system administrator. The system also has some feature for create pages and blog sites which can be filtering by the 
+category with dynamically.
 
 ## Problem Domain Area
 
