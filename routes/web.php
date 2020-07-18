@@ -1,5 +1,8 @@
 <?php
 
+Route::get('/', function(){
+	return '786';
+});
 
 Route::group(['middleware' => ['langChooser']], function () {
 
