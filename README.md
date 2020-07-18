@@ -1,6 +1,10 @@
 # OWN CMS (Quick CMS)
 
-Almost every IT firm have some offer a small personal website for blog commending or online product selling or any other service related small websites but most of the time, every IT Engineers are so much busy for their big project working with huge budget. On the other hand, a personal blog sites or product selling small websites and other service related websites are depending on very small budget within short time product delivery deadline. In this scenario, the company wants to develop a common platform for the current problem solutions. They want to make some common features such as user’s management, pages with posts creation and content managements within the based platform. The propose system is QUICKCMS which is enable that types of individual small websites with low costs and very quick product delivery. The company wants to make sure their own product for their branding and marketing which is achieved huge customers with big revenue into the small CMS development.
+Almost every IT firm have some offer a small personal website for blog commending or online product selling or any other service related small websites but most of the time, every IT Engineers are so much busy for their big project working with huge budget. 
+
+On the other hand, a personal blog sites or product selling small websites and other service related websites are depending on very small budget within short time product delivery deadline.In this scenario, the company wants to develop a common platform for the current problem solutions. They want to make some common features such as user’s management, pages with posts creation and content managements within the based platform. 
+
+The propose system is QUICKCMS which is enable that types of individual small websites with low costs and very quick product delivery. The company wants to make sure their own product for their branding and marketing which is achieved huge customers with big revenue into the small CMS development.
 
 **Version**: 1.0 Release of the Quick CMS (OWN CMS).
 
