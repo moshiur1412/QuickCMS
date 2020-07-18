@@ -12,7 +12,7 @@ Almost every IT firm have some offer a small personal website for blog commendin
 - [Problem Domain Area](#problem-Domain-Area)
 - [The Advantages of System](#The-Advantages-of-System)
 - [The Limitations of System](#The-Limitations-of-System)
-- [The System Features List](#system-features-list)
+- [The System Features List](#Aims-and-Objectives)
 - [Entity Relationship Diagram (ERD)](#Entity-Relationship-Diagram)
 - [Technologies and Libraries](#technologies-and-libraries)
 - [Further Development](#further-development)
@@ -58,7 +58,7 @@ CMS issues on his articles. “if the clients wants to version control for legal
 
 ## Aims and Objectives
 
--The developer can easily customize the system and some features
+- The developer can easily customize the system and some features
 development with modification within very short time.
 - The system owner can use the system within very short time which is very
 effective for their business goal achieve.
@@ -67,7 +67,7 @@ customer and market values.
 
 ## Entity-Relationship-Diagram
 
-<!-- ![arc](erd_diagram.jpg?raw=true 'ERD_Diagram') -->
+![arc](erd_diagram.jpg?raw=true 'ERD_Diagram')
 
 ## Technologies and libraries
 
