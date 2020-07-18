@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1a3d5a7b59661b7a9fa7addd88ac8ff",
+    "content-hash": "e742452abd9b0f3cf9adb5f3a928b015",
     "packages": [
         {
             "name": "baum/baum",
@@ -4477,7 +4477,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.4"
+        "php": ">=5.6.4",
+        "ext-gd": "^7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
