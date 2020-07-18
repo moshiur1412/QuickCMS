@@ -12,7 +12,7 @@
          @if (Auth::guest())
          <li><a href="{{ url('/login') }}">{{ trans('static.login') }}</a></li>
          @else
-         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="position: relative;padding-left: 50px; "> <img src="{{ URL::to('/') }}/public/upload/avatars/{{Auth::user()->avatar}}" > {{ Auth::user()->name }} <span class="caret"></span> </a>
+         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="position: relative;padding-left: 50px; "> <img src="{{ URL::to('/') }}/upload/avatars/{{Auth::user()->avatar}}" > {{ Auth::user()->name }} <span class="caret"></span> </a>
             <ul class="dropdown-menu" role="menu">
              <li> <a href="{{ url('/users/editProfile ') }}"> {{ trans('static.edit_my_profile') }} </a> </li>
              <li> <a href="{{ url('/logout') }}"
@@ -39,7 +39,7 @@
                     <div class="profile-main">
                         <p class="text-right profile-options"><i class="profile-options-open icon-options-vertical fa-2x"></i></p>
                         <p class="image">
-                            <img alt="image" src="{{ URL::to('/') }}/public/upload/avatars/{{Auth::user()->avatar}}" width="80">
+                            <img alt="image" src="{{ URL::to('/') }}/upload/avatars/{{Auth::user()->avatar}}" width="80">
                             <span class="status"><i class="fa fa-circle text-success"></i></span>
                         </p>
                         <p> <span class="name">{{Auth::user()->name}}</span><br>

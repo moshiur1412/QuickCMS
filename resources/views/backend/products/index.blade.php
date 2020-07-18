@@ -33,7 +33,7 @@
 				<tr class="{{ $product->id }}">
 					<td>{{$no++}}</td>
 
-					<td><img src="{{ URL::to('/') }}/public/upload/products/{{ $product->image }}" width="75" height="75" alt="{{ $product->image }}"></td>
+					<td><img src="{{ URL::to('/') }}/upload/products/{{ $product->image }}" width="75" height="75" alt="{{ $product->image }}"></td>
 					<td>{{ $product->name }}</td>
 					<td>{{ $product->price }} TK.</td>
 					<td>{{ !empty($product->category) ? $product->category->title : '' }} </td>

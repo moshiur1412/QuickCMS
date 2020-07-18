@@ -11,7 +11,7 @@
 	@foreach ($posts as $post)
 	<div class="row">
 		<div class="col-lg-4 col-sm-6">
-			<img class="img-responsive" src="{{URL::to('/')}}/public/upload/posts/{{ $post->image }}" alt="{{ $post->title }}">
+			<img class="img-responsive" src="{{URL::to('/')}}/upload/posts/{{ $post->image }}" alt="{{ $post->title }}">
 		</div>
 		<div class="col-lg-8 col-sm-6">
 			<h3 class="section-heading"><a href="{{ route('single-post', [$post->id, $post->slug]) }}">{{ $post->title }}</a></h3>

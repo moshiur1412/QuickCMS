@@ -10,7 +10,7 @@
   <div class="carousel-inner" role="listbox">
       @foreach ($sliders as $slider)
       <div class="item {{ $sliders->first()==$slider ? 'active' : '' }}">
-        <img src="{{URL::to('/')}}/public/upload/sliders/{{ $slider->image }}" alt="{{ $slider->header or 'Hedding Section 02' }}" >
+        <img src="{{URL::to('/')}}/upload/sliders/{{ $slider->image }}" alt="{{ $slider->header or 'Hedding Section 02' }}" >
         <div class="carousel-caption">
           <h1>{{ $slider->header or 'Hedding Section 02' }}</h1>
           <p>{{ $slider->content or 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' }}</p>

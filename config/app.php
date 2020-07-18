@@ -164,9 +164,9 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
-        // Baum\Providers\BaumServiceProvider::class,
-        // Cviebrock\EloquentSluggable\ServiceProvider::class,
-        // Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
+        Baum\Providers\BaumServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+        Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
 
 
         /*
@@ -183,7 +183,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        // Intervention\Image\ImageServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
         
 
         ],

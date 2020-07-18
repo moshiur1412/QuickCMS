@@ -31,7 +31,7 @@
 		</div>
 		<div class="row col-sm-12">
 		@if($product->exists)
-		<img src="{{ URL::to('/') }}/public/upload/products/{{ $product->image }}" alt="{{$product->title}}" id="showimage" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
+		<img src="{{ URL::to('/') }}/upload/products/{{ $product->image }}" alt="{{$product->title}}" id="showimage" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
 		@else
 
 		<img src="http://placehold.it/150x150" alt="default image" id="showimage" style="max-height: 200px; max-width: 200px; float: left; clear: both;">

@@ -9,7 +9,7 @@
 	<div class="row letest-product">
 	@foreach ($latest_watches as $latest_watch)
 		<div class="col-md-2 letest-product-list">
-			<a href="{{route('single_product', $latest_watch->id)}}" title="{{$latest_watch->price}} TK."> <img src="{{URL::to('/')}}/public/upload/products/{{$latest_watch->image }}" alt="{{$latest_watch->name}}" width="85px" height="85px"><p>{{$latest_watch->name}}</p></a>
+			<a href="{{route('single_product', $latest_watch->id)}}" title="{{$latest_watch->price}} TK."> <img src="{{URL::to('/')}}/upload/products/{{$latest_watch->image }}" alt="{{$latest_watch->name}}" width="85px" height="85px"><p>{{$latest_watch->name}}</p></a>
 		</div>
 		@endforeach
 </div>
@@ -32,7 +32,7 @@
 		@foreach ($products as $category_product)
 		<div class="col-md-3 best-product-list text-center">
 			<h5><a href="{{route('single_product', $category_product->id)}}">{{ $category_product->name}} </a></h5>
-			<a href="{{ $category_product->name}} "><img src="{{URL::to('/')}}/public/upload/products/{{ $category_product->image }}" alt="" height="80px" width="80px"></a>
+			<a href="{{ $category_product->name}} "><img src="{{URL::to('/')}}/upload/products/{{ $category_product->image }}" alt="" height="80px" width="80px"></a>
 			<div class="price-details">
 				<div class="price-number">
 					<p><span class="rupees">{{ $category_product->price}} TK. </span></p>

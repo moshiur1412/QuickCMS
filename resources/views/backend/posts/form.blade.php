@@ -54,7 +54,7 @@
 
 	<div class="row col-sm-12">
 		@if($post->exists)
-		<img src="{{URL::to('/')}}/public/upload/posts/{{ $post->image }}" alt="{{$post->title}}" id="showimage" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
+		<img src="{{URL::to('/')}}/upload/posts/{{ $post->image }}" alt="{{$post->title}}" id="showimage" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
 		@else
 
 		<img src="http://placehold.it/150x150" alt="default image" id="showimage" style="max-height: 200px; max-width: 200px; float: left; clear: both;">

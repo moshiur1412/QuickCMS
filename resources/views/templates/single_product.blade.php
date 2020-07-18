@@ -4,7 +4,7 @@
 
 		<div class="row">
 			<div class="col-sm-6">
-				<img src="{{URL::to('/')}}/public/upload/products/{{ $product->image }}" alt="{{ $product->name}}" width="60%"  height="100%" />
+				<img src="{{URL::to('/')}}/upload/products/{{ $product->image }}" alt="{{ $product->name}}" width="60%"  height="100%" />
 				<strong style="font-size: 20px"> {{ $product->price }} TK.</strong>
 			</div>
 			<div class="col-sm-6">

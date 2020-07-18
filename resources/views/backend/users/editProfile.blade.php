@@ -16,7 +16,7 @@
 
                   <div class="form-group">
                       <div class="col-md-4">
-                       <img src="{{ URL::to('/') }}/public/upload/avatars/{{ $user->avatar }}" style="width: 150px; height: 150px; float: left; border-radius:50%; margin-right: 25px" >
+                       <img src="{{ URL::to('/') }}/upload/avatars/{{ $user->avatar }}" style="width: 150px; height: 150px; float: left; border-radius:50%; margin-right: 25px" >
                    </div>
                    <div class="col-md-6">
                        <h2>{{$user->name}}'s Profile </h2>

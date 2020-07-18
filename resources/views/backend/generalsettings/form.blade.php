@@ -21,7 +21,7 @@
 
 	<div class="row col-sm-12">
 		@if(!empty($generalSetting))
-		<img src="{{URL::to('/')}}/public/upload/general_settings/{{ $generalSetting->logo }}" alt="{{$generalSetting->company_name}}" id="logo" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
+		<img src="{{URL::to('/')}}/upload/general_settings/{{ $generalSetting->logo }}" alt="{{$generalSetting->company_name}}" id="logo" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
 		@else
 
 		<img src="http://placehold.it/150x150" alt="default logo" id="showLogo" style="max-height: 200px; max-width: 200px; float: left; clear: both;">

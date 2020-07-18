@@ -26,7 +26,7 @@
 				@foreach ($sliders as $slider)
 				<tr class="{{ $slider->published ? '' : 'warning' }}">
 					<td>
-						<img src="{{URL::to('/')}}/public/upload/sliders/{{ $slider->image }}" alt="{{$slider->header}}" id="showSlider" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
+						<img src="{{URL::to('/')}}/upload/sliders/{{ $slider->image }}" alt="{{$slider->header}}" id="showSlider" style="max-height: 200px; max-width: 200px; float: left; clear: both;">
 
 					</td>
 					<td>{{ $slider->header or 'none' }}</td>

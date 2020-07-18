@@ -94,7 +94,7 @@
 			<ul class="list-group">
 				@foreach ($users as $user)
 				<li class="list-group-item" style="margin:10px;">
-					<img src="{{URL::to('/')}}/public/upload/avatars/{{ $user->avatar }}" style="width: 50px; height: 50px; float: left; border-radius:50%; margin-right: 25px">
+					<img src="{{URL::to('/')}}/upload/avatars/{{ $user->avatar }}" style="width: 50px; height: 50px; float: left; border-radius:50%; margin-right: 25px">
 					<h4>{{ $user->name }} - ({{ $user->role }})</h4>
 					<p>Last Login {{ $user->present()->lastLoginDifference }}</p>
 				</li>
@@ -114,7 +114,7 @@
 					@foreach ($comments as $k=> $comment)
 					@if ($k % 2 == 0)
 					<li class="by-me">
-						<div class="avatar pull-left"> <img src="{{URL::to('/')}}/public/upload/avatars/default.jpg" style="width: 44px; height: 44px;"> </div>
+						<div class="avatar pull-left"> <img src="{{URL::to('/')}}/upload/avatars/default.jpg" style="width: 44px; height: 44px;"> </div>
 						<div class="chat-content">
 							<div class="chat-meta">{{$comment->email}} <span class="pull-right">{{$comment->created_at->diffForHumans()}}</span></div>
 							{{ $comment->message}}
@@ -122,7 +122,7 @@
 					</li> 
 					@else
 					<li class="by-other">
-						<div class="avatar pull-right"> <img src="{{URL::to('/')}}/public/upload/avatars/default.jpg" style="width: 44px; height: 44px;"> </div>
+						<div class="avatar pull-right"> <img src="{{URL::to('/')}}/upload/avatars/default.jpg" style="width: 44px; height: 44px;"> </div>
 						<div class="chat-content">
 							<div class="chat-meta">{{$comment->email}} <span class="pull-right">{{$comment->created_at->diffForHumans()}}</span></div>
 							{{ str_limit($comment->message, 150, "...") }} 
