@@ -1,12 +1,23 @@
-# OWN CMS (OWN CMS)
+# OWN CMS (Quick CMS)
 
 -
-EC_Cleam is the subsystem which is developed for your own online profile which can share easily by your own format. In the evaluation of the system that has been trying to deliver the best application within the limitation of time but there was still possible to implement new features and functionality for the best attractive product. Therefore, the project live demo, repository, and screencast video are following below:
+Almost every IT firm have some offer a small personal website for blog commending
+or online product selling or any other service related small websites but most of the
+time, every IT Engineers are so much busy for their big project working with huge
+budget. On the other hand, a personal blog sites or product selling small websites and
+other service related websites are depending on very small budget within short time
+product delivery deadline. In this scenario, the company wants to develop a common
+platform for the current problem solutions. They want to make some common features
+such as user’s management, pages with posts creation and content managements
+within the based platform. The propose system is QUICKCMS which is enable that types
+of individual small websites with low costs and very quick product delivery. The
+company wants to make sure their own product for their branding and marketing which
+is achieved huge customers with big revenue into the small CMS development.
 
-**Version**: 1.0 Release of the EC_Cleam (Online Profile).
+**Version**: 1.0 Release of the Quick CMS (OWN CMS).
 
-- Application Live: https://live-ec-claim.herokuapp.com/
-- Screencast video for live demo presentation without audio:
+<!-- - Application Live: https://live-quick-cms.herokuapp.com/ -->
+<!-- - Screencast video for live demo presentation without audio: -->
   <!-- <a href="https://www.useloom.com/share/5e7a93bd7aa64fc7b55a33b70b19a0e8"><img src="screencast_video.jpg" border="10" alt="SEV_System_Live_Demo" width="560" height="315" /></a> -->
 
 ---
@@ -30,11 +41,18 @@ EC_Cleam is the subsystem which is developed for your own online profile which c
 
 ## Overview
 
-This is identified that the project developed as calling name EC_Cleam. The system handles to share your own profile by your own custom format which can share your CV. Therefore, the system is completely run error-free in that checking period.
+This is identified that the project developed as calling name QuickCMS. The system handles to share your own profile by your own custom format which can share your CV. Therefore, the system is completely run error-free in that checking period.
 
 ## Problem Domain Area
 
-- To Share online profile with github link.
+- Mr. Derek Ashauer is the famous content writer and project manager, developer of
+the AshWebStudio IT firm. He said that his blog “Last three months, many of our clients has been coming to us for updating their own websites and some clients are waiting for days/weeks on their web guy to make update their websites. Others make changes so frequently with hourly fees but if they have a content management system (Ashauer, 2009)”.
+
+- Mr. Jon Mikel Bailey is the popular content writer he said that his articles about their
+own experience sharing. “Content is king! Yes, it is very important, if you want to update your content each and every moment what will happen. First spend more money and second you will not publish good content as you should (Bailey & Jon-Mikel, 2013) “.
+
+- Mr. Brent Summers is an effective and active content writer, he said that about the
+CMS issues on his articles. “if the clients wants to version control for legal sensitives, wants an approval workflow for a massive editorial team, regularly press releases with serialized blogging post, if the clients want to provide search utility or any kinds of API supports and used the multiple language support (Summers, 2000)”..
 
 ## The Advantages of System
 
@@ -51,12 +69,14 @@ This is identified that the project developed as calling name EC_Cleam. The syst
 - Users can't find their following twitch name in real time just like Twitch.
 - The system didn't config any mailing system for notifications.
 
-## The System Features List
+## Aims and Objectives
 
-- login and Registration
-- Effective Dashboard
-- Post For Share
-- Make Online Profile
+-The developer can easily customize the system and some features
+development with modification within very short time.
+- The system owner can use the system within very short time which is very
+effective for their business goal achieve.
+- The developer company (MDB) can promoted their banding name with huge
+customer and market values.
 
 ## Entity-Relationship-Diagram
 
@@ -64,17 +84,11 @@ This is identified that the project developed as calling name EC_Cleam. The syst
 
 ## Technologies and libraries
 
-- VSCode Editor
-- ES6+ Syntax
-- Async /Await
-- React Hooks
-- Redux With DevTools
-- Json Web Tokens (JWT)
-- Postman HTTP Client
-- Mongoose / MongoDB / Atlas
-- Bcrypt Password Hashing
-- Heroku & Git Depeloyment
-- Node v10.16.3, NPM v6.9.0.
+- Laravel 5+, PHP 7+.
+- HTTP Client for JSON API.
+- Bootstrap, SCSS, and default level layouts.
+- MySQL for local, PgSQL for Heroku.
+- jQuery, Ajax for validation and verification.
 
 ## Further Development
 
@@ -92,24 +106,16 @@ This is identified that the project developed as calling name EC_Cleam. The syst
 - Then run this below comments
 
 ```sh
-$ git clone https://github.com/vorsurm/EC_Cleam.git
+$ git clone https://github.com/vorsurm/QuickCMS.git
 
-# Install dependencies for server
-npm install
-
-# Install dependencies for client
-npm run client-install
-
-# Run the client & server with concurrently
-npm run dev
-
-# Run the Express server only
-npm run server
-
-# Run the React client only
-npm run client
-
-# Server runs on http://localhost:5000 and client on http://localhost:3000
+$ cd QuickCMS
+$ composer install
+$ cp .env.example .env
+$ php artisan key:generate
+$ config .env file, below description
+$ php artisan migrate
+$ php artisan serve
+$ It`s open a browser window with http://localhost:8000/login
 
 ```
 
@@ -119,74 +125,33 @@ npm run client
 
 ```
 
-mongoDB Config:
+MySQL Config:
 ==============
-https://cloud.mongodb.com
-- create a account
-- config mongoDB
-
-Connect to EC_Cleam:
-====================
-Node.js -> 3.0 or later
-Copy -> Connection String Only
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=qcms_db
+DB_USERNAME=username
+DB_PASSWORD=password
 
 
 ```
 
-- Browser opens up and runs with URL: `http://localhost:5000`
-- Login after Registration
-- create your profile.
-- post throught the browser.
-- share the link .
+- Browser opens up and runs with URL: `http://localhost:8000`
+- configure your own style .
 
 ---
 
 ## Questions and Answers
 
-### How would you deploy the above on AWS? (ideally, a rough architecture diagram will help)
-
-![arc](aws_deploy_diagram.jpg?raw=true 'Architecture')
-
-### Where do you see bottlenecks in your proposed architecture and how would you approach scaling this app starting from 100 reqs/day to 900MM reqs/day over 6 months?
-
-In this section, I am just trying to figure out from the AWS documentation and trying to follow the coding standard. Truly speaking that, I don't have any access AWS service but I used the s3 key, secret, region, bucket, and URL for image storage. Therefore, here is the suitable answers are following below.
-
-**_AWS Service Purpose_**
-
-- Used auto-scaling tools(configure: group name, min & max size, and availability zones)
-- Around 19 Regions (Availability Zones, used advantage from AWS global infrastructure)
-- Robust, used for fully featured technology infrastructure.
-- Used AWS building blocks (lambda, CloudFront, Elastic etc.)
-
-**_For Application Purpose_**
-
-- Application load balancer(session, logging, routing, and health check)
-- shift some load around (Used cache content)
-- Managed NoSQL database for lace schema
-- Service Oriented Architecture
-
-**_Users >1 Millions_**
-
-- Used Multi-AZ deployment
-- Elastic Load Balancing between tires
-- Used Auto Scaling tools
-- Service Oriented Architecture (SOA)
-- Serving Content Smartly(S3/ColudFront)
-- Caching off DB (configurations)
-- Moving state off tiers that auto scale
-
-**_Users >10 Millions_**
-
-- More fine-tuning of the full application
-- More SOA of features/functionality
-- Going from multi-Az to multi-region
-- Possibly start to build custom solutions
-- Deep analysis of the entire stack
-- Build serverless whenever possible
+### Coming soon... 
 
 ## Summary
 
-EC_Cleam is successfully developed and implemented also it's live now as a first version 1.0. After the hardworking and self-studying period, I would like to say, I learn very much from that project which was a totally new concept on the live streaming online channel with API integration. Therefore, It'a was very durable and helpful for me in every stage as a programmer, tester and the scrum master.
+The project is completely developed by the target customer requirements and their
+collaboration so the system value must be achieved. On the other hand, the system is
+used to LARAVEL framework, which is update and upgradable for the future
+challenges issue.
 
 ## References
 
