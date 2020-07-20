@@ -16,14 +16,14 @@ class UsersTableSeeder extends Seeder
       DB::table('users')->insert([
         [
         'name' => 'super admin',
-        'email' => 'mdbcorporationbd@gmail.com',
+        'email' => 'admin@gmail.com',
         'password' => bcrypt('123456'),
         'last_login_at' => date('Y-m-d H:i:s'),
         'role' => 'super admin',
         ],
         [
         'name' => 'admin',
-        'email' => 'admin@gmail.com',
+        'email' => 'nadmin@gmail.com',
         'password' => bcrypt('123456'),
         'last_login_at' => date('Y-m-d H:i:s'),
         'role' => 'admin',
