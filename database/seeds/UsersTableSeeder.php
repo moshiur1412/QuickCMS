@@ -15,29 +15,36 @@ class UsersTableSeeder extends Seeder
 
       DB::table('users')->insert([
         [
+        'name' => 'super admin demo',
+        'email' => 'admin@gmail.com',
+        'password' => bcrypt('123456'),
+        'last_login_at' => date('Y-m-d H:i:s'),
+        'role' => 'super admin',
+        ],
+        [
         'name' => 'super admin',
-        'email' => 'sadmin@gmail.com',
+        'email' => 'sadmin@qc.com',
         'password' => bcrypt('123456'),
         'last_login_at' => date('Y-m-d H:i:s'),
         'role' => 'super admin',
         ],
         [
         'name' => 'admin',
-        'email' => 'admin@gmail.com',
+        'email' => 'nadmin@qc.com',
         'password' => bcrypt('123456'),
         'last_login_at' => date('Y-m-d H:i:s'),
         'role' => 'admin',
         ],
         [
         'name' => 'user',
-        'email' => 'user@gmail.com',
+        'email' => 'user@qc.com',
         'password' => bcrypt('123456'),
         'last_login_at' => date('Y-m-d H:i:s'),
         'role' => 'user',
         ],
         [
         'name' => 'Normal User',
-        'email' => 'normaluser@gmail.com',
+        'email' => 'normaluser@qc.com',
         'password' => bcrypt('123456'),
         'last_login_at' => date('Y-m-d H:i:s'),
         'role' => 'user',
